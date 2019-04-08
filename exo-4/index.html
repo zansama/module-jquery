@@ -36,7 +36,7 @@
                         <a href="#">Home</a>
                     </li>
                     <li>
-                        <a href="#">Products</a>
+                        <a href="#" id="product">Products</a>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
@@ -45,8 +45,8 @@
                             <span class="glyphicon glyphicon-user"></span> Your Account</a>
                     </li>
                     <li>
-                        <a href="#">
-                            <span class="glyphicon glyphicon-shopping-cart"></span> Cart</a>
+                        <a href="#" class="numberArtcile">
+                            <span class="glyphicon glyphicon-shopping-cart mr-1"></span> Cart</a>
                     </li>
                 </ul>
             </div>
@@ -59,7 +59,7 @@
                 <div class="panel panel-primary">
                     <div class="panel-heading">BLACK FRIDAY DEAL</div>
                     <div class="panel-body">
-                        <img src="ipad.jpg" class="img-responsive" style="width:100%" alt="Image">
+                        <a href="#" class="img1">   <img src="ipad.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
                     </div>
                     <div class="panel-footer">Buy 25 ipads</div>
                 </div>
@@ -68,7 +68,7 @@
                 <div class="panel panel-danger">
                     <div class="panel-heading">BLACK FRIDAY DEAL</div>
                     <div class="panel-body">
-                        <img src="computer.jpeg" class="img-responsive" style="width:100%" alt="Image">
+                        <a href="#" class="img1">  <img src="computer.jpeg" class="img-responsive" style="width:100%" alt="Image"></a>
                     </div>
                     <div class="panel-footer">Buy 20 computers</div>
                 </div>
@@ -77,7 +77,7 @@
                 <div class="panel panel-success">
                     <div class="panel-heading">BLACK FRIDAY DEAL</div>
                     <div class="panel-body">
-                        <img src="iphone.jpg" class="img-responsive" style="width:100%" alt="Image">
+                        <a href="#" class="img1"><img src="iphone.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
                     </div>
                     <div class="panel-footer">Buy 50 mobiles.</div>
                 </div>
@@ -89,11 +89,11 @@
     <footer class="container-fluid text-center">
         <p>Online Store Copyright</p>
         <form class="form-inline">Get deals:
-            <input type="email" class="form-control" size="50" placeholder="Email Address">
-            <button type="button" class="btn btn-danger">Sign Up</button>
+            <input type="email" id="email" class="form-control" size="50" placeholder="Email Address" required>
+            <button type="button" class="btn btn-danger" id ="signup">Sign Up</button>
         </form>
     </footer>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
