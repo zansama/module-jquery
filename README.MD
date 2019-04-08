@@ -73,7 +73,8 @@ Le répertoire 3 présente une page de site d'un portfolio. Ce portfolio est tr�
 6. modifiez le texte des paragraphes de la première ligne d'images. Tous les textes "Some text..." doivent être remplacés par "Mon projet";
 *Bonus*: ajouter le numéro du projet c'est à dire 'Mon projet 1' 'Mon projet 2'...
 7. choisissez une image sur internet et changez toutes les images du projet par cette image. *Bonus*: personnalisez chacune des images;
-8. vous venez de réaliser un nouveau projet et vous souhaitez le mettre sur votre portfolio. De plus, comme c'est le dernier, vous souhaitez qu'il apparaisse au dessus des autres et qu'il soit plus grand pour être mis en valeur. Choisissez une image et un texte et ajoutez le au-dessous de "Some of my work". Ajustez la taille de l'image pour être de 250px de haut;
+8. vous venez de réaliser un nouveau projet et vous souhaitez le mettre sur votre portfolio. De plus, comme c'est le dernier,
+ vous souhaitez qu'il apparaisse au dessus des autres et qu'il soit plus grand pour être mis en valeur. Choisissez une image et un texte et ajoutez le au-dessous de "Some of my work". Ajustez la taille de l'image pour être de 250px de haut;
 9. la classe intro a été définie dans le fichier 'index.css'. Ajoutez cette classe au footer afin de changer l'affichage en rouge.
 
 ## Exercice 4 : Actions --> Réactions
