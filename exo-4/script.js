@@ -32,5 +32,18 @@ $(document).ready(function () {
 
     })
 
+    $(".img1")
+        .mouseenter(function() {
+        var product = $(this).parent().parent().children().last().text();
+            console.log('l\'utilisateur regarde '+product);
+        })
+
+    $("#email").on('focus',event =>{
+        console.log('l\'utilisaeur tape quelque chose');
+
+    }).on('keypress',event =>{
+        console.log('il écrit');
+    });
+
 
 });
